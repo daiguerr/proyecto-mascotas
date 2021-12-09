@@ -4,10 +4,10 @@ body {
 }
 a {
   text-decoration: none;
-  color: #d694f5;
+  color: #ffe3fa;
 }
 a:hover {
-  color: #d694f5;
+  color: #fda5ed;
   text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 998;
-  background: #c18561;
+  background: #d1d1d1;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #d696f0;
+  background: #999999;
   color: #fff;
 }
 .back-to-top.active {
@@ -59,28 +59,16 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 24px 0;
-  background: #f5aa7c;
+  background: #d1d1d1;
 }
 #header.header-transparent {
   background: transparent;
 }
 #header.header-scrolled {
-  background: #f5aa7c;
+  background: #d1d1d1;
   padding: 12px;
 }
-#header .logo h1 {
-  font-size: 24px;
-  margin: 0;
-  line-height: 1;
-  font-weight: 700;
-  letter-spacing: 1px;
-  font-family: "Poppins", sans-serif;
-  text-transform: uppercase;
-}
-#header .logo h1 a, #header .logo h1 a:hover {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-}
+
 #header .logo img {
   padding: 0;
   margin: 0;
@@ -167,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: #f5aa7c;
+  background: #d1d1d1;
   transition: 0.3s;
 }
 .navbar-mobile .mobile-nav-toggle {
@@ -190,10 +178,10 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #f5aa7c;
+  color: #d1d1d1;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #f5aa7c;
+  color: #8a8a8a;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -230,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 56px;
   text-transform: uppercase;
   color: #fff;
-  text-shadow: -1px 0 2px #2f4d5a;
+  text-shadow: -1px 0 2px #464c4e;
 }
 #hero h2 {
   color: #fff;
@@ -238,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 700;
-  text-shadow: -1px 0 2px #2f4d5a;
+  text-shadow: -1px 0 2px #585a5a;
 }
 #hero .btn-get-started {
   font-size: 36px;
@@ -283,7 +271,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f4f9fc;
+  background-color: #ffffff;
 }
 
 .section-title {
@@ -327,7 +315,7 @@ section {
 .requisitos .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #2f4d5a;
+  color: #535657;
   margin-bottom: 30px;
 }
 .requisitos .content p {
@@ -335,7 +323,7 @@ section {
 }
 .requisitos .content .about-btn {
   display: inline-block;
-  background: #f5aa7c;
+  background: #e28b9c;
   padding: 6px 44px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -356,7 +344,7 @@ section {
 }
 .requisitos .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #f5aa7c;
+  color: #e28b9c;
   margin-bottom: 10px;
 }
 .requisitos .icon-boxes .icon-box h4 {
@@ -414,10 +402,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #f5aa7c;
+  border: 1px solid #e28b9c;
 }
 .mascotas .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #f5aa7c;
+  background-color: #e28b9c;
 }
 
 /*--------------------------------------------------------------
@@ -481,7 +469,7 @@ section {
   font-size: 14px;
 }
 .contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #f5aa7c;
+  background-color: #e28b9c;
 }
 .contact .php-email-form input {
   padding: 10px 15px;
@@ -490,14 +478,14 @@ section {
   padding: 12px 15px;
 }
 .contact .php-email-form button[type=submit] {
-  background: #f5aa7c;
+  background: #e28b9c;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
 }
 .contact .php-email-form button[type=submit]:hover {
-  background: #f5aa7c;
+  background: #f099e0;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -533,16 +521,12 @@ section {
   margin-bottom: 15px;
   background: white;
   color: #2f4d5a;
-  border-top: 4px solid #f5aa7c;
+  border-top: 4px solid #e28b9c;
   text-align: center;
   padding: 30px 20px;
 }
-#footer .footer-top .footer-info h3 {
-  font-size: 24px;
-  margin: 0 0 20px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 700;
+#footer .footer-top .footer-info img{
+  width: 180px;
 }
 
 @media (max-width: 575px) {
