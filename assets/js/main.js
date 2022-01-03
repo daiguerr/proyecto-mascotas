@@ -1,5 +1,4 @@
-
-(function () {
+(function() {
   "use strict";
 
   /**
@@ -108,7 +107,7 @@
   /**
    * Mobile nav toggle
    */
-  on('click', '.mobile-nav-toggle', function (e) {
+  on('click', '.mobile-nav-toggle', function(e) {
     select('#navbar').classList.toggle('navbar-mobile')
     this.classList.toggle('bi-list')
     this.classList.toggle('bi-x')
@@ -117,7 +116,7 @@
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
-  on('click', '.scrollto', function (e) {
+  on('click', '.scrollto', function(e) {
     if (select(this.hash)) {
       e.preventDefault()
 
@@ -142,6 +141,49 @@
       }
     }
   });
+
+ 
+  /**
+   * Testimonials slider
+   */
+  new Swiper('.mascotas-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 40
+      },
+
+      1200: {
+        slidesPerView: 3,
+      }
+    }
+  });
+
+  /**
+   * Animation on scroll
+   */
+  window.addEventListener('load', () => {
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      once: true,
+      mirror: false
+    });
+  });
+
+})()
 
 
   /**
@@ -184,6 +226,6 @@
     });
   });
 
-})()
 
-/** pagina adopcion */
+
+  
